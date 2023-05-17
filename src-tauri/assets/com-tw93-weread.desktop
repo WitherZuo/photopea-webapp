@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Categories=Office
+Exec=com-gaoding-photopea
+Icon=com-gaoding-photopea
+Name=com-gaoding-photopea
+Name[zh_CN]=稿定设计 Photopea
+StartupNotify=true
+Terminal=false
+Type=Application

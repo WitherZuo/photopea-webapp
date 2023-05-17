@@ -1,0 +1,25 @@
+{
+  "tauri": {
+    "bundle": {
+      "icon": ["png/稿定设计 Photopea_256.ico", "png/稿定设计 Photopea_32.ico"],
+      "identifier": "com.gaoding.photopea",
+      "active": true,
+      "category": "DeveloperTool",
+      "copyright": "",
+      "externalBin": [],
+      "longDescription": "Photopea WebApp",
+      "resources": ["png/稿定设计 Photopea_32.ico"],
+      "shortDescription": "",
+      "targets": ["msi"],
+      "windows": {
+        "certificateThumbprint": null,
+        "digestAlgorithm": "sha256",
+        "timestampUrl": "",
+        "wix": {
+          "language": ["zh-CN"],
+          "template": "assets/main.wxs"
+        }
+      }
+    }
+  }
+}

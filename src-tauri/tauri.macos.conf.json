@@ -1,0 +1,23 @@
+{
+  "tauri": {
+    "bundle": {
+      "icon": ["icons/稿定设计 Photopea.icns"],
+      "identifier": "com.gaoding.photopea",
+      "active": true,
+      "category": "DeveloperTool",
+      "copyright": "",
+      "externalBin": [],
+      "longDescription": "Photopea WebApp",
+      "macOS": {
+        "entitlements": null,
+        "exceptionDomain": "",
+        "frameworks": [],
+        "providerShortName": null,
+        "signingIdentity": null
+      },
+      "resources": [],
+      "shortDescription": "Photopea WebApp",
+      "targets": ["dmg"]
+    }
+  }
+}

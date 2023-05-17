@@ -1,0 +1,28 @@
+{
+  "package": {
+    "productName": "稿定设计 Photopea",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "security": {
+      "csp": null
+    },
+    "updater": {
+      "active": false
+    },
+    "systemTray": {
+      "iconPath": "png/稿定设计 Photopea_512.png",
+      "iconAsTemplate": true
+    },
+    "allowlist": {
+      "all": true
+    }
+  },
+  "build": {
+    "withGlobalTauri": true,
+    "devPath": "../dist",
+    "distDir": "../dist",
+    "beforeBuildCommand": "",
+    "beforeDevCommand": ""
+  }
+}
