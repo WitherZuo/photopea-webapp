@@ -34,8 +34,6 @@ LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
 OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
 ***************************************************************************** */
-/* global Reflect, Promise */
-
 
 function __awaiter(thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
@@ -1697,9 +1695,9 @@ function mergeTauriConfig(url, options, tauriConf) {
                 const cli_path = path.join(new_dir, "cli.js");
                 const cli_path_target = path.join(old_dir, "cli.js");
                 const about_pake_path = path.join(new_dir, "about_pake.html");
-                const about_patk_path_target = path.join(old_dir, "about_pake.html");
+                const about_pake_path_target = path.join(old_dir, "about_pake.html");
                 fs$1.copyFile(cli_path, cli_path_target);
-                fs$1.copyFile(about_pake_path, about_patk_path_target);
+                fs$1.copyFile(about_pake_path, about_pake_path_target);
             }
             tauriConf.pake.windows[0].url = file_name;
             tauriConf.pake.windows[0].url_type = "local";
@@ -2525,7 +2523,7 @@ class BuilderFactory {
 }
 
 var name = "pake-cli";
-var version = "2.0.5";
+var version = "2.0.6";
 var description = "🤱🏻 Turn any webpage into a desktop app with Rust. 🤱🏻 很简单的用 Rust 打包网页生成很小的桌面 App。";
 var engines = {
 	node: ">=16.0.0"

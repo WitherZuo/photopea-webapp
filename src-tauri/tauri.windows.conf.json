@@ -9,7 +9,7 @@
       "externalBin": [],
       "longDescription": "Photopea WebApp",
       "resources": ["png/稿定设计 Photopea_32.ico"],
-      "shortDescription": "",
+      "shortDescription": "Photopea WebApp",
       "targets": ["msi"],
       "windows": {
         "certificateThumbprint": null,
